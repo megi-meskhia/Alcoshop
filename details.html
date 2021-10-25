@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    
+    
+        <title>Alcoshop</title>
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="jq.js"></script>
+    
+    
+    </head>
+<body>
+
+    <header>
+
+        <div class="headerNav">
+            <nav class="container navbar">
+              <div class="col-lg-2">
+                <a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" class="mobbar"><img class="mb-1" src="icons/menu.png" alt="menu"></a>
+                <a href="index.html"><h1 class="d-inline logo mx-3">LOGO</h1></a>
+              </div>
+            <div class="col-lg-8 col-sm-5 d-none d-sm-block">
+                <input type="search" class="border search p-2" placeholder="Search..." aria-label="Search"
+                    aria-describedby="search-addon" />
+                 <img class="" src="icons/Search.png" alt="search">
+            </div>
+            <div class="col-lg-2">
+               <button class="border p-1">eng</button>
+               <img class="mx-2" src="icons/Polygon 1.png" alt="">
+               <img class="mx-3" src="icons/Lock.png" alt="">
+               <img class="mx-2" src="icons/ShoppingCart.png" alt="">
+               
+            </div>
+
+            <div class="mob-search d-block d-sm-none mt-3 w-100">
+                <input type="search" class="border search p-2" placeholder="Search..." aria-label="Search"
+                    aria-describedby="search-addon" />
+                 <img class="" src="icons/Search.png" alt="search">
+            </div>
+
+            </nav>
+        </div>
+
+        <div class="container d-none d-sm-block">
+            <div class="row py-3">
+                <a class="col text-dark" href="whiskey.html">Whiskey</a>
+                <a class="col text-dark" href="">Vodka</a>
+                <a class="col text-dark" href="">Rum</a>
+                <a class="col text-dark" href="">Tequila</a>
+                <a class="col text-dark" href="">Wine</a>
+                <a class="col text-dark" href="">Gin</a>
+                <a class="col text-dark" href="">Vermouth</a>
+                <a class="col text-dark" href="">Brandy</a>
+                <a class="col text-dark" href="">Beer</a>
+            </div>
+        </div>
+
+
+        <!-- offcanvas -->
+
+        <div style="width: 70%;" class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header" >
+              <button  type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+          <div class="offcanvas-body" style="font-size: 20px; text-align: center; font-weight: bold;">
+              <a class="text-dark" href="whiskey.html">Whiskey</a> <br><br>
+              <a class="text-dark" href="">Vodka</a> <br><br>
+              <a class="text-dark" href="">Rum</a> <br><br>
+              <a class="text-dark" href="">Tequila</a> <br><br>
+              <a class="text-dark" href="">Wine</a> <br><br>
+              <a class="text-dark" href="">Gin</a> <br><br>
+              <a class="text-dark" href="">Vermouth</a> <br><br>
+              <a class="text-dark" href="">Brandy</a> <br><br>
+              <a class="text-dark" href="">Beer</a>
+          </div>
+      </div>
+
+    </header>
+
+    
+    <section>
+
+        <!-- whiskey -->
+  
+        <div class="container-fluid whiskey">
+          <div class="container">
+              <h3 class="d-inline">Whiskey</h3>
+              <button id="seeM" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">See all Product</button>
+          </div>
+        </div>
+  
+        <!-- products -->
+  
+        <div class="container mt-5">
+  
+          <!-- product list -->
+  
+          <div class="row">
+              <div id="list" class="col-3">
+                  <ul class="navbar-nav">
+                      <li class="mb-2"><img src="icons/Ellipse 62.png" class="circle" alt=""><a class="text-dark" href="#">All Products</a></li>
+                      <li class="mb-2"><img src="icons/Ellipse 62.png" class="circle" alt=""><a class="text-dark" href="#">John Jameson</a></li>
+                      <li id="jack" class="mb-2"><img style="visibility: visible;" src="icons/Ellipse 62.png" class="circle" alt=""><a class="text-dark" href="daniels.html">Jack Daniels</a></li>
+                      <li class="mb-2"><img src="icons/Ellipse 62.png" class="circle" alt=""><a class="text-dark" href="#">Teachers Highland Cream</a></li>
+                      <li class="mb-2"><img src="icons/Ellipse 62.png" class="circle" alt=""><a class="text-dark" href="#">Chivas Regal</a></li>
+                      <li class="mb-2"><img src="icons/Ellipse 62.png" class="circle" alt=""><a class="text-dark" href="#">Ballntine</a></li>
+                      <li class="mb-2"><img src="icons/Ellipse 62.png" class="circle" alt=""><a class="text-dark" href="#">Johnnie Walker</a></li>
+                      <li class="mb-2"><img src="icons/Ellipse 62.png" class="circle" alt=""><a class="text-dark" href="#">Glenfiddich</a></li>
+                      <li class="mb-2"><img src="icons/Ellipse 62.png" class="circle" alt=""><a class="text-dark" href="#">Jim Beam</a></li>
+                      <li class="mb-2"><img src="icons/Ellipse 62.png" class="circle" alt=""><a class="text-dark" href="#">Auchentoshan</a></li>
+                      <li class="mb-2"><img src="icons/Ellipse 62.png" class="circle" alt=""><a class="text-dark" href="#">Cutty Sark</a></li>
+                      <li class="mb-2"><img src="icons/Ellipse 62.png" class="circle" alt=""><a class="text-dark" href="#">The Famous Grouse</a></li>
+                      <li class="mb-2"><img src="icons/Ellipse 62.png" class="circle" alt=""><a class="text-dark" href="#">Highland Park</a></li>
+                      <li class="mb-2"><img src="icons/Ellipse 62.png" class="circle" alt=""><a class="text-dark" href="#">Hombo Iwai</a></li>
+                      <li class="mb-2"><img src="icons/Ellipse 62.png" class="circle" alt=""><a class="text-dark" href="#">Connemara</a></li>
+                      <li class="mb-2"><img src="icons/Ellipse 62.png" class="circle" alt=""><a class="text-dark" href="#">Macallan</a></li>
+                      <li class="mb-2"><img src="icons/Ellipse 62.png" class="circle" alt=""><a class="text-dark" href="#">J&B</a></li>
+                      <li class="mb-2"><img src="icons/Ellipse 62.png" class="circle" alt=""><a class="text-dark" href="#">Killbegan</a></li>
+                      <li class="mb-2"><img src="icons/Ellipse 62.png" class="circle" alt=""><a class="text-dark" href="#">Laphroaig</a></li>
+                      <li class="mb-2"><img src="icons/Ellipse 62.png" class="circle" alt=""><a class="text-dark" href="#">Cardhu</a></li>
+                      <li class="mb-2"><img src="icons/Ellipse 62.png" class="circle" alt=""><a class="text-dark" href="#">Grant</a></li>
+                      <li class="mb-2"><img src="icons/Ellipse 62.png" class="circle" alt=""><a class="text-dark" href="#">Glen Garioch</a></li>
+                      <li class="mb-2"><img src="icons/Ellipse 62.png" class="circle" alt=""><a class="text-dark" href="#">Bulleit Rye</a></li>
+                      <li class="mb-2"><img src="icons/Ellipse 62.png" class="circle" alt=""><a class="text-dark" href="#">Akashi</a></li>
+                      <li class="mb-2"><img src="icons/Ellipse 62.png" class="circle" alt=""><a class="text-dark" href="#">Japanese Whisky</a></li>
+                  </ul>
+              </div>
+
+              <!-- product list mobile -->
+
+             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header" style="background-color: rgb(218, 218, 218);">
+                    <h5 class="modal-title" style="font-weight: bold;" id="exampleModalLabel">Product List</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                      <ul class="navbar-nav">
+                          <li class="mb-2"><a class="text-dark" href="#">All Products</a></li> <hr>
+                          <li class="mb-2"><a class="text-dark" href="#">John Jameson</a></li> <hr>
+                          <li id="jack" class="mb-2"><a class="text-dark" href="daniels.html">Jack Daniels</a></li> <hr>
+                          <li class="mb-2"><a class="text-dark" href="#">Teachers Highland Cream</a></li> <hr>
+                          <li class="mb-2"><a class="text-dark" href="#">Chivas Regal</a></li> <hr>
+                          <li class="mb-2"><a class="text-dark" href="#">Ballntine</a></li> <hr>
+                          <li class="mb-2"><a class="text-dark" href="#">Johnnie Walker</a></li> <hr>
+                          <li class="mb-2"><a class="text-dark" href="#">Glenfiddich</a></li> <hr>
+                          <li class="mb-2"><a class="text-dark" href="#">Jim Beam</a></li> <hr>
+                          <li class="mb-2"><a class="text-dark" href="#">Auchentoshan</a></li> <hr>
+                          <li class="mb-2"><a class="text-dark" href="#">Cutty Sark</a></li> <hr>
+                          <li class="mb-2"><a class="text-dark" href="#">The Famous Grouse</a></li> <hr>
+                          <li class="mb-2"><a class="text-dark" href="#">Highland Park</a></li> <hr>
+                          <li class="mb-2"><a class="text-dark" href="#">Hombo Iwai</a></li> <hr>
+                          <li class="mb-2"><a class="text-dark" href="#">Connemara</a></li> <hr>
+                          <li class="mb-2"><a class="text-dark" href="#">Macallan</a></li> <hr>
+                          <li class="mb-2"><a class="text-dark" href="#">J&B</a></li> <hr>
+                          <li class="mb-2"><a class="text-dark" href="#">Killbegan</a></li> <hr>
+                          <li class="mb-2"><a class="text-dark" href="#">Laphroaig</a></li> <hr>
+                          <li class="mb-2"><a class="text-dark" href="#">Cardhu</a></li> <hr>
+                          <li class="mb-2"><a class="text-dark" href="#">Grant</a></li> <hr>
+                          <li class="mb-2"><a class="text-dark" href="#">Glen Garioch</a></li> <hr>
+                          <li class="mb-2"><a class="text-dark" href="#">Bulleit Rye</a></li> <hr>
+                          <li class="mb-2"><a class="text-dark" href="#">Akashi</a></li> <hr>
+                          <li class="mb-2"><a class="text-dark" href="#">Japanese Whisky</a></li> <hr>
+                      </ul>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+
+  
+              <!-- product details -->
+  
+            <div class="col-lg-9">
+                <div>
+                    <a style="color: black;" href="daniels.html">
+                        <img style="margin-right: 10px;" src="icons/right-arrow.png" alt=""> Back
+                    </a>
+                </div>
+
+                <div class="p-5 mt-3 mb-5" style="border: 1px solid black;">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <h3 style="font-size: 30px;">Jack Daniels Black</h3>
+                            <p class="my-3">American whiskey, 40%</p>
+                            <div class="mt-5 mb-3">
+                                <button style="font-size: 13px; border-radius: 50%; background-color: #b89170b9; border: none; color: white; width: 40px; height: 40px;">0.7 L</button>
+                                <span style="font-size: 15px;" class="card-text px-2">GEL 95.50</span>
+                                <img class="" src="icons/ShopCart.png" alt="">
+                            </div>
+                            <div>
+                                <span>Quantity</span>
+                                <img style="width: 25px; margin-left: 10px;" src="icons/minus.png" alt="">
+                                <span style="font-size: 25px;">1</span>
+                                <img style="width: 25px;" src="icons/plus.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 jackMob">
+                            <img style="width: 300px;" src="img/jack_daniels.png" alt="">
+                        </div>
+                    </div>
+
+                    <!-- story -->
+
+                    <div class="my-5">
+                        <h6 style="font-size: 25px; font-weight: bold;">Product Story</h6><br>
+                        <p>Jack Daniel's Tennessee Whiskey is known for its smooth, sweet and mild palate that opens with flavors of caramel, 
+                            complemented by hints of spice, nuts and a touch of smoke. This distinctive flavor is owed to a charcoal mellowing process through ten feet of sugar maple charcoal. 
+                            This whiskey has a quick, sweet finish with notes of oak, spice, caramel, walnuts and white pepper.
+                            <br><br> Jack Daniel's is a brand of Tennessee whiskey and the top selling American whiskey in the world.
+                            It is produced in Lynchburg, Tennessee, by the Jack Daniel Distillery, which has been owned by the Brown-Forman Corporation since 1956. 
+                            Despite being the location of a major operational distillery, Jack Daniel's home county of Moore is a dry county,
+                            so the product is not available for purchase at stores or restaurants within the county.</p>
+                    </div>
+
+                  <!-- rate -->
+
+                    <div class="row mb-5 pb-5">
+                        <div class="col-lg-2 col-md-2 rate5">
+                             <button class="mx-3" style="font-size: 40px; border: 1px solid gray; border-radius: 50%; width: 70px; padding: 15px; background-color: white;">5</button>
+                             <div class="mt-2">
+                                 <img style="width: 17px;" src="icons/star (1).png" alt="">
+                                 <img style="width: 17px;" src="icons/star (1).png" alt="">
+                                 <img style="width: 17px;" src="icons/star (1).png" alt="">
+                                 <img style="width: 17px;" src="icons/star (1).png" alt="">
+                                 <img style="width: 17px;" src="icons/star (1).png" alt="">
+                             </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 ratehr">
+                            <div class="mb-2">
+                                <span>5</span>
+                                <img style="width: 10px;" src="icons/star (1).png" alt="">
+                                <button style="width:150px; height: 10px; border-radius: 20px; border: none; background-color: black; margin-left: 10px;"> </button>
+                            </div>
+                            <div class="mb-2">
+                                <span>4</span>
+                                <img style="width: 10px;" src="icons/star (1).png" alt="">
+                                <button style="width:150px; height: 10px; border-radius: 20px; border: none; background-color: lightgray; margin-left: 10px;"> </button>
+                            </div>
+                            <div class="mb-2">
+                                <span>3</span>
+                                <img style="width: 10px;" src="icons/star (1).png" alt="">
+                                <button style="width:150px; height: 10px; border-radius: 20px; border: none; background-color: lightgray; margin-left: 10px;"> </button>
+                            </div>
+                            <div class="mb-2">
+                                <span>2</span>
+                                <img style="width: 10px;" src="icons/star (1).png" alt="">
+                                <button style="width:150px; height: 10px; border-radius: 20px; border: none; background-color: lightgray; margin-left: 10px;"> </button>
+                            </div>
+                            <div class="mb-2">
+                                <span>1</span>
+                                <img style="width: 10px;" src="icons/star (1).png" alt="">
+                                <button style="width:150px; height: 10px; border-radius: 20px; border: none; background-color: lightgray; margin-left: 10px;"> </button>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                             <p class="mb-2" style="font-weight: bold;">Rate This Product</p>
+                             <input style="width: 100%; border-radius: 5px; border: 1px solid lightgray; font-style: italic; padding: 5px; margin-bottom: 10px;" type="text" placeholder="Title">
+                             <input style="width: 100%; border-radius: 5px; border: 1px solid lightgray; font-style: italic; padding: 5px; margin-bottom: 10px;" type="text" placeholder="Review">
+                             <div style="float: right;">
+                                 <img style="width: 17px;" src="icons/star.png" alt="">
+                                 <img style="width: 17px;" src="icons/star.png" alt="">
+                                 <img style="width: 17px;" src="icons/star.png" alt="">
+                                 <img style="width: 17px;" src="icons/star.png" alt="">
+                                 <img style="width: 17px;" src="icons/star.png" alt="">
+                                 <button style="border: none; padding: 5px 20px; border-radius: 5px; font-weight: bold;">Rate</button>
+                             </div>
+                        </div>
+                    </div>
+                    <div style="float: right;">
+                        <img src="icons/twitter.png" alt="">
+                        <img src="icons/fb.png" alt="">
+                        <img src="icons/google.png" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+
+              
+          </div>
+      </div>
+  
+  
+      </section>
+
+
+            <!-- logos -->
+
+            <section>
+
+                <hr class="mt-5">
+               
+                <div id="wrap" class="wrap my-5">
+                    <a href="#" class="hb">
+                      <div class="c">
+                        <img src="img/jack.png" alt="" />         
+                      </div>
+                    </a>           
+                    <a href="#" class="hb">
+                      <div class="c">
+                        <img src="img/martini.png" alt="" />          
+                      </div>
+                    </a>
+                    <a href="#" class="hb">
+                      <div class="c">
+                        <img src="img/heineken.png" alt="" />
+                      </div>
+                    </a>
+                    <a href="#" class="hb">
+                      <div class="c">
+                        <img src="img/finlandia.png" alt="" />
+                      </div>
+                    </a>
+                    <a href="#" class="hb">
+                        <div class="c">
+                          <img src="img/jack.png" alt="" />         
+                        </div>
+                      </a>           
+                      <a href="#" class="hb">
+                        <div class="c">
+                          <img src="img/martini.png" alt="" />          
+                        </div>
+                      </a>
+                      <a href="#" class="hb">
+                        <div class="c">
+                          <img src="img/heineken.png" alt="" />
+                        </div>
+                      </a>
+                      <a href="#" class="hb">
+                        <div class="c">
+                          <img src="img/finlandia.png" alt="" />
+                        </div>
+                      </a>
+                      <a href="#" class="hb">
+                        <div class="c">
+                          <img src="img/jack.png" alt="" />         
+                        </div>
+                      </a>           
+                      <a href="#" class="hb">
+                        <div class="c">
+                          <img src="img/martini.png" alt="" />          
+                        </div>
+                      </a>
+                      <a href="#" class="hb">
+                        <div class="c">
+                          <img src="img/heineken.png" alt="" />
+                        </div>
+                      </a>
+                      <a href="#" class="hb">
+                        <div class="c">
+                          <img src="img/finlandia.png" alt="" />
+                        </div>
+                      </a>
+                   
+                  </div>
+                             
+                <div class="container  mb-5">
+                  <span>see all</span>
+                  <img class="mx-4" src="icons/Polygon 3.png" alt="">
+                </div>
+               
+                <div class="d-block d-sm-none" style="background-color: rgba(0, 0, 0, 0.884); padding: 20px; text-align: center;">
+                    <a href="" style="color: white;">see all</a>
+                </div>
+      
+           </section>
+
+
+    <footer>
+        <div style="background-color: black;" >
+            <div class="container about py-5 mt-3 d-none d-sm-block">
+                <h4>LOGO</h4>
+                <div class="row mb-5 pb-5">
+                    <div class="col-lg-3 col-sm-3 mt-5">
+                        <h6>Get to Know Us</h6>
+                        <ul>
+                            <li><a href="">Careers</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">About Amazon</a></li>
+                            <li><a href="">Sustainability</a></li>
+                            <li><a href="">Investor Relations</a></li>
+                            <li><a href="">Amazon Devices</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-3 mt-5">
+                        <h6>Make Money with Us</h6>
+                        <ul>
+                            <li><a href="">Careers</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">About Amazon</a></li>
+                            <li><a href="">Sustainability</a></li>
+                            <li><a href="">Investor Relations</a></li>
+                            <li><a href="">Amazon Devices</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-3 mt-5">
+                        <h6>Make Money with Us</h6>
+                        <ul>
+                            <li><a href="">Careers</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">About Amazon</a></li>
+                            <li><a href="">Sustainability</a></li>
+                            <li><a href="">Investor Relations</a></li>
+                            <li><a href="">Amazon Devices</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-3 mt-5">
+                        <h6>Make Money with Us</h6>
+                        <ul>
+                            <li><a href="">Careers</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">About Amazon</a></li>
+                            <li><a href="">Sustainability</a></li>
+                            <li><a href="">Investor Relations</a></li>
+                            <li><a href="">Amazon Devices</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <hr>
+                    <div class="mt-5 row">
+                        <div class="col-7 col-sm-4"><span style="font-size: 14px;">This website containts content with alcohol</span></div>
+                        <div class="col-5 col-sm-8 row d-flex align-items-center m-0">    
+                            <div class="col-4 col-sm-4">
+                                <span style="float: right;"><img src="icons/Vibrate.png" alt=""><a href=""> +(995) 551 600</a></span>
+                            </div>
+                            <div class="col-5 col-sm-5">
+                                <span style="float: right;"><img src="icons/Mail.png" alt=""><a  href=""> info@alcoshop.ge</a></span>
+                            </div>
+                            <div class="col-3 col-sm-3">
+                                <span style="float: right;"><img src="icons/facebook.png" alt=""><a href=""> Alcoshop</a></span>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- about mob -->
+
+            <div class="d-block d-sm-none" style="color: white; padding: 50px; text-align: center;">
+                <h4 style="font-size: 30px; font-weight: bolder; margin-bottom: 20px;">LOGO</h4>
+                <span style="font-weight: bold;"><a href=""><img class="mx-3" src="icons/menu.png" alt="menu"></a>contact</span>
+                <p style="font-size: 14px; margin-top: 20px;">This website containts content with alcohol</p>
+            </div>
+
+        </div>
+
+        <div class="container py-5 d-none d-sm-block">
+            <span style="font-size: 14px;">All rights reserved Alcohol Online Shop © 2020</span>
+            <span style="float: right;"><img src="img/logo design ge.png" alt=""></span>
+        </div>
+
+        <div class="py-5 d-block d-sm-none" style="text-align: center;">
+            <p>All rights reserved Alcohol Online Shop © 2020</p>
+            <img style="margin-top: 20px; background-color: rgba(0, 0, 0, 0.452); padding: 15px;" src="img/logo design ge.png" alt="">
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
